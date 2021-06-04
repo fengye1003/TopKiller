@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "极刺客", "极刺客\极刺客.csproj", "{1301B321-001B-4577-8FD0-B123C5E51BCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{5A0B6587-0B7B-4D32-BBCD-90A9E309399A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\ntsd.exe = ..\..\..\..\Downloads\ntsd.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "极刺客GUI", "极刺客GUI\极刺客GUI.csproj", "{FFDF8E8B-FE7F-4C81-982C-CAEBA20FFBA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1301B321-001B-4577-8FD0-B123C5E51BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1301B321-001B-4577-8FD0-B123C5E51BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1301B321-001B-4577-8FD0-B123C5E51BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1301B321-001B-4577-8FD0-B123C5E51BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDF8E8B-FE7F-4C81-982C-CAEBA20FFBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDF8E8B-FE7F-4C81-982C-CAEBA20FFBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDF8E8B-FE7F-4C81-982C-CAEBA20FFBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDF8E8B-FE7F-4C81-982C-CAEBA20FFBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DE7D95B-EF24-4FD3-80B6-32E894EF83FB}
+	EndGlobalSection
+EndGlobal
